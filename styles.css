@@ -1,0 +1,106 @@
+.body {
+  height: 100vh;
+  background-color: #3a3a3c;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.counterDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 300px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.counterBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  border: none;
+  padding: 0;
+  color: #ffffff;
+  font-size: 70px;
+}
+
+.plusButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  color: #ffffff;
+  font-size: 70px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.minusButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  color: #ffffff;
+  font-size: 70px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.resultDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  height: 50px;
+  width: 300px;
+}
+
+.result {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.bottomDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 300px;
+}
+
+.saveButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 130px;
+  background-color: #3a3a3c;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.resetButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 130px;
+  background-color: #3a3a3c;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 10px;
+}
